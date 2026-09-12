@@ -4,7 +4,7 @@ This repo is the **Linux release** of Wave Race 64 Recompiled.
 Upstream (Windows/macOS) lives at
 [elliotttate/wave-race-64-recomp](https://github.com/elliotttate/wave-race-64-recomp).
 
-## Install
+## Debian Install
 
 Download `waverace64-recomp_0.4.0_amd64.deb` from
 [Releases](https://github.com/davkdavk/wave-race-64-recomp/releases/latest),
@@ -17,6 +17,27 @@ waverace64-recomp
 
 Requires a Vulkan driver (`mesa-vulkan-drivers` on AMD/Intel).
 Tested on Debian 13 trixie x86_64 with an RX 7800 XT (RADV).
+
+## Steam Deck Install
+
+Download `waverace64-recomp_0.4.0_steamdeck.tar.gz` from
+[Releases](https://github.com/davkdavk/wave-race-64-recomp/releases/latest),
+then in Desktop Mode:
+
+```bash
+mkdir -p ~/Games
+tar -xzf waverace64-recomp_0.4.0_steamdeck.tar.gz -C ~/Games
+~/Games/waverace64-recomp/run-waverace64.sh
+```
+
+To add it to Steam, choose **Games -> Add a Non-Steam Game to My Library -> Browse**
+and select `~/Games/waverace64-recomp/run-waverace64.sh`.
+
+Steam Deck notes:
+
+- Put your ROM anywhere readable, such as `~/ROMs/` or an SD card.
+- First launch opens the ROM picker; choose your USA Rev A dump.
+- The package is portable and does not need `sudo` or pacman.
 
 ## ROM
 
