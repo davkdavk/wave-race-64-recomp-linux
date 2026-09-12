@@ -7,7 +7,7 @@ Upstream (Windows/macOS) lives at
 ## Debian Install
 
 Download `waverace64-recomp_0.4.0_amd64.deb` from
-[Releases](https://github.com/davkdavk/wave-race-64-recomp/releases/latest),
+[Releases](https://github.com/davkdavk/wave-race-64-recomp-linux/releases/latest),
 then:
 
 ```bash
@@ -25,7 +25,7 @@ build for SteamOS, but it has not yet been validated on real Steam Deck
 hardware.
 
 Download `waverace64-recomp_0.4.0_steamdeck.tar.gz` from
-[Releases](https://github.com/davkdavk/wave-race-64-recomp/releases/latest),
+[Releases](https://github.com/davkdavk/wave-race-64-recomp-linux/releases/latest),
 then in Desktop Mode:
 
 ```bash
