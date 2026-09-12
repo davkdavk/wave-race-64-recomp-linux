@@ -20,6 +20,10 @@ Tested on Debian 13 trixie x86_64 with an RX 7800 XT (RADV).
 
 ## Steam Deck Install
 
+**Steam Deck package requires testing.** It is provided as a portable Linux
+build for SteamOS, but it has not yet been validated on real Steam Deck
+hardware.
+
 Download `waverace64-recomp_0.4.0_steamdeck.tar.gz` from
 [Releases](https://github.com/davkdavk/wave-race-64-recomp/releases/latest),
 then in Desktop Mode:
@@ -38,6 +42,8 @@ Steam Deck notes:
 - Put your ROM anywhere readable, such as `~/ROMs/` or an SD card.
 - First launch opens the ROM picker; choose your USA Rev A dump.
 - The package is portable and does not need `sudo` or pacman.
+- If it fails, run `~/Games/waverace64-recomp/WaveRace64Recomp --version` from
+  a terminal and report the output.
 
 ## ROM
 
